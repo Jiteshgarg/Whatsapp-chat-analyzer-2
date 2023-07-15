@@ -140,7 +140,7 @@ if uploaded_file is not None:
             st.pyplot(fig)
 
         # emoji analysis
-        st.title("Emoji Analysis")
+        # st.title("Emoji Analysis")
         emoji_df = helper.emoji_analysis(selected_user, df)
 
         if emoji_df is None:
